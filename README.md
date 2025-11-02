@@ -25,18 +25,31 @@ The project focuses on real-world concepts such as user sessions, form validatio
 ---
 
 ## 🗂️ Project Structure
-├── index.php # Homepage
-├── db.php # Database connection
-├── movie_event.php # Movie event listing
+
+├── index.php  # Homepage
+
+├── db.php  # Database connection
+
+├── movie_event.php  # Movie event listing
+
 ├── movie_shows.php # Showtimes for selected movies
+
 ├── show_seat.php # Seat selection page
+
 ├── seat_bill.php # Ticket billing and confirmation
+
 ├── signup.js # Signup form validation
+
 ├── resetpass.php # Password reset
+
 ├── profile.php # User profile page
+
 ├── data base.sql # Database file
+
 ├── css/ # Stylesheets
+
 ├── images/ # Movie or UI images
+
 └── js/ # JavaScript files
 
 
@@ -47,61 +60,55 @@ The project focuses on real-world concepts such as user sessions, form validatio
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Priyanshu2209/It-s_show_time.git
+   
 
-
-Move the project folder to your local web server directory
+2. Move the project folder to your local web server directory
 (e.g., htdocs for XAMPP or www for WAMP).
 
-Import the database
+3. Import the database
+    * Open phpMyAdmin
 
-Open phpMyAdmin
+    * Create a new database (e.g., itsshowtime)
 
-Create a new database (e.g., itsshowtime)
+    * Import the file data base.sql
 
-Import the file data base.sql
+4. Configure database connection
 
-Configure database connection
+    * Open db.php or connection.php
 
-Open db.php or connection.php
+    * Update your database name, username, and password as required.
 
-Update your database name, username, and password as required.
+5. Run the project
 
-Run the project
+    * Open your browser and navigate to:
 
-Open your browser and navigate to:
+        * http://localhost/It-s_show_time
 
-http://localhost/It-s_show_time
+## 💻 Technologies Used
+* Frontend: HTML, CSS, JavaScript
 
-💻 Technologies Used
+* Backend: PHP
 
-Frontend: HTML, CSS, JavaScript
+* Database: MySQL
 
-Backend: PHP
+* Server Environment: Apache (XAMPP/WAMP)
 
-Database: MySQL
+## 🚀 Future Enhancements
+* Integration of a secure payment gateway
 
-Server Environment: Apache (XAMPP/WAMP)
+* Enhanced seat map interface with dynamic visualization
 
-🚀 Future Enhancements
+* Admin dashboard for movie and showtime management
 
-Integration of a secure payment gateway
+* Improved responsive design for mobile devices
 
-Enhanced seat map interface with dynamic visualization
+## 📸 Screenshots
+![alt text](<Screenshot (78).png>) ![alt text](<Screenshot (77).png>)
 
-Admin dashboard for movie and showtime management
-
-Improved responsive design for mobile devices
-
-📸 Screenshots
-
-![alt text](<Screenshot (78)-1.png>) ![alt text](<Screenshot (77)-1.png>)
-
-📜 License
-
+## 📜 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper attribution.
 
-👨‍💻 Author
-
+## 👨‍💻 Author
 Developed by Priyanshu
 © 2022
