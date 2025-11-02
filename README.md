@@ -94,7 +94,7 @@ Improved responsive design for mobile devices
 
 📸 Screenshots
 
-Add screenshots of the homepage, movie selection page, seat booking page, and billing confirmation here.
+![alt text](<Screenshot (78)-1.png>) ![alt text](<Screenshot (77)-1.png>)
 
 📜 License
 
