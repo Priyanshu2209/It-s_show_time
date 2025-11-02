@@ -105,6 +105,8 @@ The project focuses on real-world concepts such as user sessions, form validatio
 ## 📸 Screenshots
 ![alt text](<Screenshot (78).png>) ![alt text](<Screenshot (77).png>)
 
+* This is just a look for the login/signup page.
+
 ## 📜 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper attribution.
