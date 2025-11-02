@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+
+}
+.container  {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/home.jpg');
+    background-size: cover;  
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-box{
+    text-align: center;
+    background-color: rgba(39, 19, 19, 0.452);
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+.edit-icon img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.edit-icon img:hover
+{
+     opacity: 0.4;     
+}
+.home_back
+{
+   position:absolute;
+   left: 45px;
+}
+.home_back a
+{
+    color:blue;
+    text-decoration: none;
+}
+.home_back a:hover
+{
+    color: red;
+}
+.profile-pic{
+    width: 200px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.jodd  {
+    cursor: pointer;
+
+}
+.form-group 
+{
+    margin-bottom:15px;
+    /* background-color: blue; */
+}
+.form-group-a
+{
+    display: grid;
+}
+.form-group-a a
+{ 
+   padding: 0px 0px 10px 0px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: large;
+}
+.form-group-a a:hover
+{
+    color: maroon;
+    text-shadow: #fff;
+}
